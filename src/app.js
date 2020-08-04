@@ -19,7 +19,7 @@ app.use('/api/notes', notesRouter)
 app.use('/api/folders', foldersRouter)
 
 app.get('/', (req, res) => {
-	res.send('Flip Florp!')
+	res.send('Noteful!')
 })
 
 module.exports=app;
